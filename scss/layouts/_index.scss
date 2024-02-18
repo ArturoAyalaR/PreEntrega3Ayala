@@ -1,0 +1,59 @@
+/*index**/
+
+
+.bg-main {
+    background-color: $primary-color;
+}
+
+.main-info {
+    @include flex(row, center, normal);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    &-label {
+        @include flex(column, space-around, center);
+        margin: 20px;
+        background-color: $primary-color;
+
+        img {
+            flex: 1;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+
+        }
+
+        h2,
+        p {
+            margin: 5px;
+        }
+
+        &:hover {
+            background-color: $secondary-color;
+            box-shadow: 2px 2px 2px;
+            transition: 0.7s;
+
+            h2 {
+                background-color: $secondary-color;
+                transition: 0.7s;
+
+            }
+
+            p {
+                background-color: $secondary-color;
+                transition: 0.7s;
+
+
+            }
+        }
+    }
+
+}
+
+.main-last {
+    padding: 20px;
+    text-align: center;
+    color: #40A2E3;
+    text-shadow: 2px 2px 2px;
+}

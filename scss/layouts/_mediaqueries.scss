@@ -1,0 +1,66 @@
+/*Vista mobil*/
+
+
+/**vista tablet**/
+@media (max-width:1024px) {
+    .main-info {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .textarea {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .main-info {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-container {
+        font-size: 15px;
+        height: 700px;
+        width: auto;
+        margin: 2 0px;
+
+
+    }
+
+    .form-container,
+    .form-control {
+        text-align: center;
+    }
+
+    .textarea {
+        height: 500px;
+    }
+
+    .aboutus-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px;
+        margin: 10px;
+        color: white;
+        background-color: #3887BE;
+        justify-content: center;
+        border-radius: 5px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .process-content iframe {
+        width: 360px;
+        height: 215px;
+
+    }
+
+}

@@ -1,0 +1,17 @@
+/**footer**/
+.footer-container {
+    @include flex(column, center, center);
+    background-color: #7a91d1;
+    color: white;
+    bottom: 0;
+    flex: 1;
+
+}
+
+
+
+.insta-logo a,
+i {
+    color: white;
+    justify-content: end;
+}

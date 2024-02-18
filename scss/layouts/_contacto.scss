@@ -1,0 +1,29 @@
+/**contacto**/
+.form-container {
+    background-image: url(../assets/images/tapbeerjpg.jpg);
+    background-size: cover;
+    padding: 30px;
+    margin: 50px;
+    border: 2px solid gray;
+    opacity: 0.9;
+    height: 600px;
+
+    .btn-primary {
+        background-color: $head-color;
+
+
+
+    }
+
+    .mb-3 {
+        .form-label {
+            color: whitesmoke;
+        }
+
+        .textarea {
+            height: 200px;
+        }
+
+
+    }
+}

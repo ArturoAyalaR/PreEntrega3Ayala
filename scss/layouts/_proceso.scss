@@ -1,0 +1,39 @@
+/**proceso**/
+
+.main-process {
+    background-image: url('../assets/images/homebeer.jpg');
+    background-size: cover;
+    height: 623px;
+    @include flex(column, center, center);
+    gap: 15px;
+
+    .process-content {
+        @include flex(column, center, center);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.422);
+
+        h2 {
+            color: whitesmoke;
+        }
+
+        p {
+            width: 60%;
+            color: bisque;
+        }
+
+        li {
+            color: bisque;
+            list-style: none;
+        }
+
+        h3 {
+            width: 60%;
+            color: white;
+            padding: 10px;
+        }
+
+    }
+
+}

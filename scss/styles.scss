@@ -1,0 +1,16 @@
+//base
+@import "base/vars";
+@import "base/reset";
+@import "base/utilities";
+
+//components
+@import "components/footer";
+@import "components/navbar";
+
+//layouts
+@import "layouts/index.scss";
+@import "layouts/productos";
+@import "layouts/proceso";
+@import 'layouts/aboutUs';
+@import "layouts/contacto";
+@import 'layouts/mediaqueries';

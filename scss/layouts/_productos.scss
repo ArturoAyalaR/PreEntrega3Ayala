@@ -1,0 +1,26 @@
+/*Productos*/
+
+.main-productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+
+    .carousel {
+        margin: 200px;
+
+
+        .carousel-item {
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+            }
+        }
+    }
+}
